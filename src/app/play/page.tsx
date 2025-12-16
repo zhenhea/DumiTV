@@ -2258,7 +2258,7 @@ function PlayPageClient() {
 
   return (
     <PageLayout activePath='/play'>
-      <div className='flex flex-col gap-3 py-4 px-5 lg:px-[3rem] 2xl:px-20'>
+      <div className='flex mt-4 flex-col gap-3 py-4 px-5 lg:px-[3rem] 2xl:px-20'>
         {/* 播放器和选集 */}
         <div className='space-y-2'>
            {/* 折叠控制 - 仅在 lg 及以上屏幕显示 */}
