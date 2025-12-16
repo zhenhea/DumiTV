@@ -1273,10 +1273,6 @@ export const UserMenu: React.FC = () => {
         createPortal(changePasswordPanel, document.body)}
 
       {/* 版本面板 */}
-      <VersionPanel
-        isOpen={isVersionPanelOpen}
-        onClose={() => setIsVersionPanelOpen(false)}
-      />
     </>
   );
 };
