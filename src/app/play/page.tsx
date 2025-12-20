@@ -2258,7 +2258,7 @@ function PlayPageClient() {
 
   return (
     <PageLayout activePath='/play'>
-      <div className='flex mt-4 flex-col gap-3 py-4 px-5 lg:px-[3rem] 2xl:px-20'>
+      <div className='flex mt-2 flex-col gap-3 py-4 px-5 lg:px-[3rem] 2xl:px-20'>
         {/* 播放器和选集 */}
         <div className='space-y-2'>
            {/* 折叠控制 - 仅在 lg 及以上屏幕显示 */}
@@ -2301,14 +2301,14 @@ function PlayPageClient() {
           </div>
           
           <div
-            className={`grid gap-4 lg:h-[500px] xl:h-[650px] 2xl:h-[750px] transition-all duration-300 ease-in-out ${isEpisodeSelectorCollapsed
+            className={`grid gap-4 lg:h-[500px] xl:h-[650px] 2xl:h-[890px] transition-all duration-300 ease-in-out ${isEpisodeSelectorCollapsed
               ? 'grid-cols-1'
               : 'grid-cols-1 md:grid-cols-4'
               }`}
           >
             {/* 播放器 */}
             <div
-              className={`h-full transition-all duration-300 ease-in-out rounded-xl border border-white/0 dark:border-white/30 ${isEpisodeSelectorCollapsed ? 'col-span-1' : 'md:col-span-3'
+              className={`h-full rounded-xl transition-all duration-300 ease-in-out rounded-xl border border-white/0 dark:border-white/30 ${isEpisodeSelectorCollapsed ? 'col-span-1' : 'md:col-span-3'
                 }`}
             >
               <div className='relative w-full h-[300px] lg:h-full'>
